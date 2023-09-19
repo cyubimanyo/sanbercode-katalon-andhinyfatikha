@@ -43,9 +43,9 @@ def randomUsername = generateRandomString(8)
 // Generate a random password
 def randomPassword = generateRandomString(10)
 
-WebUI.setText(findTestObject('Sign Up/input_Username'), randomUsername)
+WebUI.setText(findTestObject('Sign Up/input_signupUsername'), randomUsername)
 
-WebUI.setText(findTestObject('Sign Up/input_Password'), randomPassword)
+WebUI.setText(findTestObject('Sign Up/input_signupPassword'), randomPassword)
 
 WebUI.click(findTestObject('Sign Up/button_Sign up'))
 

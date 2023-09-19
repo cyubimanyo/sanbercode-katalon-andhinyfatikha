@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Log in</name>
+   <name>a_Login</name>
    <tag></tag>
    <elementGuidId>cbc3ec5f-08e7-4eb0-8430-de5de3afaef0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#login2</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='login2']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#login2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
