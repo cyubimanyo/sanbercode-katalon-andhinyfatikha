@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password</name>
+   <name>button_Login</name>
    <tag></tag>
-   <elementGuidId>cd779722-18b8-4825-9d98-0ee8d6a95c86</elementGuidId>
+   <elementGuidId>467e1298-78eb-4a52-9e78-dc988a17a681</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#sign-password</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='sign-password']</value>
+         <key>CSS</key>
+         <value>#logInModal > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,103 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>565a82b8-6255-46df-a80d-a14991f67c17</webElementGuid>
+      <value>button</value>
+      <webElementGuid>3e7763ef-da54-4b69-9511-e39bcdf9489e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>40bbd808-d734-4f2a-95ca-98288b840387</webElementGuid>
+      <value>button</value>
+      <webElementGuid>db4558b3-c063-4bcf-87fe-5e7efbaf118a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>logIn()</value>
+      <webElementGuid>f8b9711d-d6be-498b-b594-15a9f237f650</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>0de39264-ed47-476d-b1df-8402abe44543</webElementGuid>
+      <value>btn btn-primary</value>
+      <webElementGuid>bced4b31-5c54-4889-8e6d-73edadb2caf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>sign-password</value>
-      <webElementGuid>94b9ca02-77fa-4c8b-96d4-88e2f324749e</webElementGuid>
+      <value>Log in</value>
+      <webElementGuid>8c90d697-a86e-404c-b02c-db9d604661fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sign-password&quot;)</value>
-      <webElementGuid>24e2a97d-815d-4945-afe0-260270706de0</webElementGuid>
+      <value>id(&quot;logInModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>587ef9d9-616e-40e1-b70f-f6d5916ac37f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='sign-password']</value>
-      <webElementGuid>963ffe78-ab6f-40b9-bc5d-712ae9710d68</webElementGuid>
+      <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>13ab2f70-a9b6-4f51-98e0-1db723e6b9ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='signInModal']/div/div/div[2]/form/div[2]/input</value>
-      <webElementGuid>6efede4a-2861-4bd6-a3e4-46fca6787a37</webElementGuid>
+      <value>//div[@id='logInModal']/div/div/div[3]/button[2]</value>
+      <webElementGuid>7d50bda6-971d-4876-b4b0-42d2ef406fec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[1]</value>
-      <webElementGuid>073d9716-740d-4270-8e95-9cb8c0b76e13</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/following::button[1]</value>
+      <webElementGuid>12f76eb8-250b-4146-a143-c2e688384977</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username:'])[1]/following::input[2]</value>
-      <webElementGuid>d7d79416-c8e5-41fd-b976-c3e5a6641ea2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[2]/following::button[2]</value>
+      <webElementGuid>7365c00d-13e0-4e3a-90a7-7cd95a0597c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/preceding::input[1]</value>
-      <webElementGuid>53382225-1a61-4bca-97ce-b93e5c278f2c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About us'])[1]/preceding::button[1]</value>
+      <webElementGuid>fbff416c-d1f3-4e21-bdb7-2bbf63fe130e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up'])[2]/preceding::input[1]</value>
-      <webElementGuid>7072f3d1-4104-446e-ab78-a3ca190fe4a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Player is loading.'])[1]/preceding::button[2]</value>
+      <webElementGuid>f5534a01-bba6-45f2-bd0c-e2f780713391</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/form/div[2]/input</value>
-      <webElementGuid>d5c4f6d6-6b1b-4d17-84b9-50d826f728c9</webElementGuid>
+      <value>//div[3]/div/div/div[3]/button[2]</value>
+      <webElementGuid>dcfd1d6b-b244-4c61-9265-d9e0bec520b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'sign-password']</value>
-      <webElementGuid>70e2482d-6660-4407-af72-152460f2dd11</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>866ca3ea-3ac9-42da-bef4-5acded9c046b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

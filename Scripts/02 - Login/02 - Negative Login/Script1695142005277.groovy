@@ -21,35 +21,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.demoBlazeURL)
 
-WebUI.click(findTestObject('Sign Up/a_Sign up'))
+WebUI.click(findTestObject('Login/a_Login'))
 
-def username = 'lihat.langit'
+def username = 'miyako'
+
 def password = 'Test123!'
 
 // Case: Without username and password
+WebUI.click(findTestObject('Login/button_Login'))
 
-WebUI.click(findTestObject('Sign Up/button_Sign up'))
-	
 WebUI.acceptAlert()
 
 // Case: Without username
+WebUI.setText(findTestObject('Login/input_loginPassword'), password)
 
-WebUI.setText(findTestObject('Sign Up/input_signupPassword'), password)
-
-WebUI.click(findTestObject('Sign Up/button_Sign up'))
+WebUI.click(findTestObject('Login/button_Login'))
 
 WebUI.acceptAlert()
-	
+
 // Case: Without password
-WebUI.setText(findTestObject('Sign Up/input_signupUsername'), username)
+WebUI.setText(findTestObject('Login/input_loginUsername'), username)
 
 WebUI.delay(3)
 
-WebUI.clearText(findTestObject('Sign Up/input_signupPassword'))
+WebUI.clearText(findTestObject('Login/input_loginPassword'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Sign Up/button_Sign up'))
+WebUI.click(findTestObject('Login/button_Login'))
 
 WebUI.acceptAlert()
 
