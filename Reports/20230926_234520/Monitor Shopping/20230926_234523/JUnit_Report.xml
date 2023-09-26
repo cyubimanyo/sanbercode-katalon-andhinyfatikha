@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Monitor Shopping" time="53.583" tests="3" failures="0" errors="0">
+   <testsuite name="Monitor Shopping" tests="3" failures="0" errors="0" time="53.583" skipped="0" timestamp="2023-09-26 23:47:35" hostname="ASUS - LAPTOP-1KOV8VAE" id="Test Suites/Monitor Shopping">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\sanbercode-katalon-andhinyfatikha-1\\Reports\\20230926_234520\\Monitor Shopping\\20230926_234523"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\sanbercode-katalon-andhinyfatikha-1\\Reports\\20230926_234520\\Monitor Shopping\\20230926_234523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-1KOV8VAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.176"/>
+         <property name="sessionId" value="d293291b9a7577cb0f668eb8a0399842"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/02 - Login/01 - Normal Login" time="12.99" classname="Test Cases/02 - Login/01 - Normal Login" status="PASSED">
+         <system-out><![CDATA[2023-09-26 23:47:35 - [TEST_CASE][PASSED] - Test Cases/02 - Login/01 - Normal Login: Test Cases/02 - Login/01 - Normal Login
+
+2023-09-26 23:47:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-26 23:47:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-26 23:47:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-26 23:47:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-26 23:47:39 - [TEST_STEP][PASSED] - navigateToUrl(demoBlazeURL): Navigate to 'https://demoblaze.com/' successfully
+
+2023-09-26 23:47:41 - [MESSAGE][PASSED] - Navigate to 'https://demoblaze.com/' successfully
+
+2023-09-26 23:47:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Login")): Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-09-26 23:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-09-26 23:47:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_loginUsername"), username): Text 'miyako' is set on object 'Object Repository/Login/input_loginUsername'
+
+2023-09-26 23:47:44 - [MESSAGE][PASSED] - Text 'miyako' is set on object 'Object Repository/Login/input_loginUsername'
+
+2023-09-26 23:47:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_loginPassword"), password): Text 'Test123!' is set on object 'Object Repository/Login/input_loginPassword'
+
+2023-09-26 23:47:45 - [MESSAGE][PASSED] - Text 'Test123!' is set on object 'Object Repository/Login/input_loginPassword'
+
+2023-09-26 23:47:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-09-26 23:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-09-26 23:47:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/a_Name of User"), STOP_ON_FAILURE): Object 'Object Repository/Login/a_Name of User' is visible
+
+2023-09-26 23:47:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Name of User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03 - Shopping/03 - Normal Monitors Shopping" time="24.068" classname="Test Cases/03 - Shopping/03 - Normal Monitors Shopping" status="PASSED">
+         <system-out><![CDATA[2023-09-26 23:47:48 - [TEST_CASE][PASSED] - Test Cases/03 - Shopping/03 - Normal Monitors Shopping: Test Cases/03 - Shopping/03 - Normal Monitors Shopping
+
+2023-09-26 23:47:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("02 - Login/01 - Normal Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/02 - Login/01 - Normal Login' successfully
+
+2023-09-26 23:47:49 - [TEST_CASE][PASSED] - Test Cases/02 - Login/01 - Normal Login: Test Cases/02 - Login/01 - Normal Login
+
+2023-09-26 23:47:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-26 23:47:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-26 23:47:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-26 23:47:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-26 23:47:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-26 23:47:51 - [TEST_STEP][PASSED] - navigateToUrl(demoBlazeURL): Navigate to 'https://demoblaze.com/' successfully
+
+2023-09-26 23:47:53 - [MESSAGE][PASSED] - Navigate to 'https://demoblaze.com/' successfully
+
+2023-09-26 23:47:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Login")): Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-09-26 23:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-09-26 23:47:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_loginUsername"), username): Text 'miyako' is set on object 'Object Repository/Login/input_loginUsername'
+
+2023-09-26 23:47:55 - [MESSAGE][PASSED] - Text 'miyako' is set on object 'Object Repository/Login/input_loginUsername'
+
+2023-09-26 23:47:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_loginPassword"), password): Text 'Test123!' is set on object 'Object Repository/Login/input_loginPassword'
+
+2023-09-26 23:47:56 - [MESSAGE][PASSED] - Text 'Test123!' is set on object 'Object Repository/Login/input_loginPassword'
+
+2023-09-26 23:47:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-09-26 23:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2023-09-26 23:47:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login/a_Name of User"), STOP_ON_FAILURE): Object 'Object Repository/Login/a_Name of User' is visible
+
+2023-09-26 23:47:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Name of User' is visible
+
+2023-09-26 23:47:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/02 - Login/01 - Normal Login' successfully
+
+2023-09-26 23:47:59 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Shopping/Monitor Product"): null
+
+2023-09-26 23:48:00 - [TEST_STEP][PASSED] - scrollToPosition(0, 400): Browser is scrolled to position x = 0, y = 400
+
+2023-09-26 23:48:00 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 400
+
+2023-09-26 23:48:00 - [TEST_STEP][PASSED] - for ([i = 1, i <= data.getRowNumbers(), (i++)]): Object: 'Object Repository/Shopping/a_Product Store' is clicked on
+
+2023-09-26 23:48:00 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/category_Monitors")): Object: 'Object Repository/Shopping/category_Monitors' is clicked on
+
+2023-09-26 23:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/category_Monitors' is clicked on
+
+2023-09-26 23:48:00 - [TEST_STEP][PASSED] - monitorProduct = data.getValue("monitor_product", i): null
+
+2023-09-26 23:48:00 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/select_product", ["product":monitorProduct])): Object: 'Object Repository/Shopping/select_product' is clicked on
+
+2023-09-26 23:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/select_product' is clicked on
+
+2023-09-26 23:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/a_Add to cart")): Object: 'Object Repository/Shopping/a_Add to cart' is clicked on
+
+2023-09-26 23:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/a_Add to cart' is clicked on
+
+2023-09-26 23:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/a_Product Store")): Object: 'Object Repository/Shopping/a_Product Store' is clicked on
+
+2023-09-26 23:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/a_Product Store' is clicked on
+
+2023-09-26 23:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/category_Monitors")): Object: 'Object Repository/Shopping/category_Monitors' is clicked on
+
+2023-09-26 23:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/category_Monitors' is clicked on
+
+2023-09-26 23:48:08 - [TEST_STEP][PASSED] - monitorProduct = data.getValue("monitor_product", i): null
+
+2023-09-26 23:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/select_product", ["product":monitorProduct])): Object: 'Object Repository/Shopping/select_product' is clicked on
+
+2023-09-26 23:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/select_product' is clicked on
+
+2023-09-26 23:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/a_Add to cart")): Object: 'Object Repository/Shopping/a_Add to cart' is clicked on
+
+2023-09-26 23:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/a_Add to cart' is clicked on
+
+2023-09-26 23:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/a_Product Store")): Object: 'Object Repository/Shopping/a_Product Store' is clicked on
+
+2023-09-26 23:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/a_Product Store' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03 - Shopping/04 - Purchase Order" time="16.109" classname="Test Cases/03 - Shopping/04 - Purchase Order" status="PASSED">
+         <system-out><![CDATA[2023-09-26 23:48:12 - [TEST_CASE][PASSED] - Test Cases/03 - Shopping/04 - Purchase Order: Test Cases/03 - Shopping/04 - Purchase Order
+
+2023-09-26 23:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/a_Cart")): Object: 'Object Repository/Shopping/a_Cart' is clicked on
+
+2023-09-26 23:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/a_Cart' is clicked on
+
+2023-09-26 23:48:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shopping/h3_Total Price"), 0): Object 'Object Repository/Shopping/h3_Total Price' is present
+
+2023-09-26 23:48:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-09-26 23:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/h3_Total Price' is present
+
+2023-09-26 23:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/button_Place Order")): Object: 'Object Repository/Shopping/button_Place Order' is clicked on
+
+2023-09-26 23:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/button_Place Order' is clicked on
+
+2023-09-26 23:48:18 - [TEST_STEP][PASSED] - setText(findTestObject("Shopping/input_Name"), "Miyako"): Text 'Miyako' is set on object 'Object Repository/Shopping/input_Name'
+
+2023-09-26 23:48:19 - [MESSAGE][PASSED] - Text 'Miyako' is set on object 'Object Repository/Shopping/input_Name'
+
+2023-09-26 23:48:19 - [TEST_STEP][PASSED] - setText(findTestObject("Shopping/input_Country"), "Indonesia"): Text 'Indonesia' is set on object 'Object Repository/Shopping/input_Country'
+
+2023-09-26 23:48:20 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/Shopping/input_Country'
+
+2023-09-26 23:48:20 - [TEST_STEP][PASSED] - setText(findTestObject("Shopping/input_City"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Shopping/input_City'
+
+2023-09-26 23:48:20 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Shopping/input_City'
+
+2023-09-26 23:48:20 - [TEST_STEP][PASSED] - randomCreditCard = generateRandomString(15): null
+
+2023-09-26 23:48:20 - [TEST_STEP][PASSED] - chars = "0123456789".toCharArray(): null
+
+2023-09-26 23:48:20 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+2023-09-26 23:48:20 - [TEST_STEP][PASSED] - sb = new java.lang.StringBuilder(): null
+
+2023-09-26 23:48:20 - [TEST_STEP][PASSED] - (length - 1)).each({ -> ... }): null
+
+2023-09-26 23:48:20 - [TEST_STEP][PASSED] - return sb.toString(): null
+
+2023-09-26 23:48:20 - [TEST_STEP][PASSED] - setText(findTestObject("Shopping/input_Credit Card"), randomCreditCard): Text '656481608335995' is set on object 'Object Repository/Shopping/input_Credit Card'
+
+2023-09-26 23:48:21 - [MESSAGE][PASSED] - Text '656481608335995' is set on object 'Object Repository/Shopping/input_Credit Card'
+
+2023-09-26 23:48:21 - [TEST_STEP][PASSED] - setText(findTestObject("Shopping/input_Month"), "September"): Text 'September' is set on object 'Object Repository/Shopping/input_Month'
+
+2023-09-26 23:48:22 - [MESSAGE][PASSED] - Text 'September' is set on object 'Object Repository/Shopping/input_Month'
+
+2023-09-26 23:48:22 - [TEST_STEP][PASSED] - setText(findTestObject("Shopping/input_Year"), "2023"): Text '2023' is set on object 'Object Repository/Shopping/input_Year'
+
+2023-09-26 23:48:23 - [MESSAGE][PASSED] - Text '2023' is set on object 'Object Repository/Shopping/input_Year'
+
+2023-09-26 23:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/button_Purchase")): Object: 'Object Repository/Shopping/button_Purchase' is clicked on
+
+2023-09-26 23:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/button_Purchase' is clicked on
+
+2023-09-26 23:48:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Shopping/h2_Thank you for your purchase")): Object 'Object Repository/Shopping/h2_Thank you for your purchase' is visible
+
+2023-09-26 23:48:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/h2_Thank you for your purchase' is visible
+
+2023-09-26 23:48:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shopping/h2_Thank you for your purchase"), 0): Object 'Object Repository/Shopping/h2_Thank you for your purchase' is present
+
+2023-09-26 23:48:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-09-26 23:48:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/h2_Thank you for your purchase' is present
+
+2023-09-26 23:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Shopping/button_OK")): Object: 'Object Repository/Shopping/button_OK' is clicked on
+
+2023-09-26 23:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/button_OK' is clicked on
+
+2023-09-26 23:48:28 - [TEST_STEP][PASSED] - navigateToUrl(demoBlazeURL): Navigate to 'https://demoblaze.com/' successfully
+
+2023-09-26 23:48:29 - [MESSAGE][PASSED] - Navigate to 'https://demoblaze.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-26 23:47:35 - [TEST_SUITE][PASSED] - Monitor Shopping: Test Cases/03 - Shopping/04 - Purchase Order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

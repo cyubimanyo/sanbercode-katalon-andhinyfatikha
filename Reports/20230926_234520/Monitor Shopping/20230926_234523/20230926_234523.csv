@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Monitor Shopping,Chrome 116.0.0.0,,,2023-09-26 23:47:35,2023-09-26 23:48:29,53.583s,PASSED
+,,,,,,,
+Test Cases/02 - Login/01 - Normal Login,Chrome 116.0.0.0,,,2023-09-26 23:47:35,2023-09-26 23:47:48,12.990s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-26 23:47:36,2023-09-26 23:47:39,3.375s,PASSED
+navigateToUrl(demoBlazeURL),Chrome 116.0.0.0,,,2023-09-26 23:47:39,2023-09-26 23:47:41,2.018s,PASSED
+"click(findTestObject(""Login/a_Login""))",Chrome 116.0.0.0,,,2023-09-26 23:47:41,2023-09-26 23:47:43,1.377s,PASSED
+"setText(findTestObject(""Login/input_loginUsername""), username)",Chrome 116.0.0.0,,,2023-09-26 23:47:43,2023-09-26 23:47:44,1.201s,PASSED
+"setText(findTestObject(""Login/input_loginPassword""), password)",Chrome 116.0.0.0,,,2023-09-26 23:47:44,2023-09-26 23:47:45,0.949s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 116.0.0.0,,,2023-09-26 23:47:45,2023-09-26 23:47:45,0.536s,PASSED
+"verifyElementVisible(findTestObject(""Login/a_Name of User""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-26 23:47:45,2023-09-26 23:47:48,2.874s,PASSED
+,,,,,,,
+Test Cases/03 - Shopping/03 - Normal Monitors Shopping,Chrome 116.0.0.0,,,2023-09-26 23:47:48,2023-09-26 23:48:12,24.068s,PASSED
+"callTestCase(findTestCase(""02 - Login/01 - Normal Login""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-26 23:47:49,2023-09-26 23:47:59,9.946s,PASSED
+"data = findTestData(""Data Files/Shopping/Monitor Product"")",Chrome 116.0.0.0,,,2023-09-26 23:47:59,2023-09-26 23:48:00,0.794s,PASSED
+"scrollToPosition(0, 400)",Chrome 116.0.0.0,,,2023-09-26 23:48:00,2023-09-26 23:48:00,0.055s,PASSED
+"for ([i = 1, i <= data.getRowNumbers(), (i++)])",Chrome 116.0.0.0,,,2023-09-26 23:48:00,2023-09-26 23:48:12,12.487s,PASSED
+,,,,,,,
+Test Cases/03 - Shopping/04 - Purchase Order,Chrome 116.0.0.0,,,2023-09-26 23:48:12,2023-09-26 23:48:29,16.109s,PASSED
+"click(findTestObject(""Shopping/a_Cart""))",Chrome 116.0.0.0,,,2023-09-26 23:48:13,2023-09-26 23:48:15,1.766s,PASSED
+"verifyElementPresent(findTestObject(""Shopping/h3_Total Price""), 0)",Chrome 116.0.0.0,,,2023-09-26 23:48:15,2023-09-26 23:48:17,2.357s,PASSED
+"click(findTestObject(""Shopping/button_Place Order""))",Chrome 116.0.0.0,,,2023-09-26 23:48:17,2023-09-26 23:48:18,0.469s,PASSED
+"setText(findTestObject(""Shopping/input_Name""), ""Miyako"")",Chrome 116.0.0.0,,,2023-09-26 23:48:18,2023-09-26 23:48:19,1.145s,PASSED
+"setText(findTestObject(""Shopping/input_Country""), ""Indonesia"")",Chrome 116.0.0.0,,,2023-09-26 23:48:19,2023-09-26 23:48:20,0.920s,PASSED
+"setText(findTestObject(""Shopping/input_City""), ""Jakarta"")",Chrome 116.0.0.0,,,2023-09-26 23:48:20,2023-09-26 23:48:20,0.846s,PASSED
+randomCreditCard = generateRandomString(15),Chrome 116.0.0.0,,,2023-09-26 23:48:20,2023-09-26 23:48:20,0.001s,PASSED
+"chars = ""0123456789"".toCharArray()",Chrome 116.0.0.0,,,2023-09-26 23:48:20,2023-09-26 23:48:20,0.001s,PASSED
+random = new java.util.Random(),Chrome 116.0.0.0,,,2023-09-26 23:48:20,2023-09-26 23:48:20,0.007s,PASSED
+sb = new java.lang.StringBuilder(),Chrome 116.0.0.0,,,2023-09-26 23:48:20,2023-09-26 23:48:20,0.013s,PASSED
+(length - 1)).each({ -> ... }),Chrome 116.0.0.0,,,2023-09-26 23:48:20,2023-09-26 23:48:20,0.015s,PASSED
+return sb.toString(),Chrome 116.0.0.0,,,2023-09-26 23:48:20,2023-09-26 23:48:20,0.002s,PASSED
+"setText(findTestObject(""Shopping/input_Credit Card""), randomCreditCard)",Chrome 116.0.0.0,,,2023-09-26 23:48:20,2023-09-26 23:48:21,0.877s,PASSED
+"setText(findTestObject(""Shopping/input_Month""), ""September"")",Chrome 116.0.0.0,,,2023-09-26 23:48:21,2023-09-26 23:48:22,0.847s,PASSED
+"setText(findTestObject(""Shopping/input_Year""), ""2023"")",Chrome 116.0.0.0,,,2023-09-26 23:48:22,2023-09-26 23:48:23,0.816s,PASSED
+"click(findTestObject(""Shopping/button_Purchase""))",Chrome 116.0.0.0,,,2023-09-26 23:48:23,2023-09-26 23:48:23,0.473s,PASSED
+"verifyElementVisible(findTestObject(""Shopping/h2_Thank you for your purchase""))",Chrome 116.0.0.0,,,2023-09-26 23:48:23,2023-09-26 23:48:26,2.412s,PASSED
+"verifyElementPresent(findTestObject(""Shopping/h2_Thank you for your purchase""), 0)",Chrome 116.0.0.0,,,2023-09-26 23:48:26,2023-09-26 23:48:26,0.384s,PASSED
+"click(findTestObject(""Shopping/button_OK""))",Chrome 116.0.0.0,,,2023-09-26 23:48:26,2023-09-26 23:48:28,1.746s,PASSED
+navigateToUrl(demoBlazeURL),Chrome 116.0.0.0,,,2023-09-26 23:48:28,2023-09-26 23:48:29,0.511s,PASSED

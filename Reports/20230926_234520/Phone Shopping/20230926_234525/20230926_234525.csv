@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Phone Shopping,Chrome 116.0.0.0,,,2023-09-26 23:48:34,2023-09-26 23:49:46,1m - 12.123s,PASSED
+,,,,,,,
+Test Cases/02 - Login/01 - Normal Login,Chrome 116.0.0.0,,,2023-09-26 23:48:34,2023-09-26 23:48:47,12.380s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-26 23:48:35,2023-09-26 23:48:38,3.411s,PASSED
+navigateToUrl(demoBlazeURL),Chrome 116.0.0.0,,,2023-09-26 23:48:38,2023-09-26 23:48:41,2.168s,PASSED
+"click(findTestObject(""Login/a_Login""))",Chrome 116.0.0.0,,,2023-09-26 23:48:41,2023-09-26 23:48:42,1.098s,PASSED
+"setText(findTestObject(""Login/input_loginUsername""), username)",Chrome 116.0.0.0,,,2023-09-26 23:48:42,2023-09-26 23:48:43,1.219s,PASSED
+"setText(findTestObject(""Login/input_loginPassword""), password)",Chrome 116.0.0.0,,,2023-09-26 23:48:43,2023-09-26 23:48:44,0.944s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 116.0.0.0,,,2023-09-26 23:48:44,2023-09-26 23:48:44,0.534s,PASSED
+"verifyElementVisible(findTestObject(""Login/a_Name of User""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-26 23:48:44,2023-09-26 23:48:47,2.492s,PASSED
+,,,,,,,
+Test Cases/03 - Shopping/01 - Normal Phone Shopping,Chrome 116.0.0.0,,,2023-09-26 23:48:47,2023-09-26 23:49:32,45.563s,PASSED
+"callTestCase(findTestCase(""02 - Login/01 - Normal Login""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-26 23:48:48,2023-09-26 23:49:00,11.949s,PASSED
+"data = findTestData(""Data Files/Shopping/Phone Product"")",Chrome 116.0.0.0,,,2023-09-26 23:49:00,2023-09-26 23:49:01,0.928s,PASSED
+"scrollToPosition(0, 300)",Chrome 116.0.0.0,,,2023-09-26 23:49:01,2023-09-26 23:49:01,0.029s,PASSED
+"click(findTestObject(""Shopping/category_Phones""))",Chrome 116.0.0.0,,,2023-09-26 23:49:01,2023-09-26 23:49:01,0.487s,PASSED
+"for ([i = 1, i <= data.getRowNumbers(), (i++)])",Chrome 116.0.0.0,,,2023-09-26 23:49:01,2023-09-26 23:49:32,31.381s,PASSED
+,,,,,,,
+Test Cases/03 - Shopping/04 - Purchase Order,Chrome 116.0.0.0,,,2023-09-26 23:49:32,2023-09-26 23:49:46,13.824s,PASSED
+"click(findTestObject(""Shopping/a_Cart""))",Chrome 116.0.0.0,,,2023-09-26 23:49:33,2023-09-26 23:49:34,1.401s,PASSED
+"verifyElementPresent(findTestObject(""Shopping/h3_Total Price""), 0)",Chrome 116.0.0.0,,,2023-09-26 23:49:34,2023-09-26 23:49:36,1.656s,PASSED
+"click(findTestObject(""Shopping/button_Place Order""))",Chrome 116.0.0.0,,,2023-09-26 23:49:36,2023-09-26 23:49:37,0.450s,PASSED
+"setText(findTestObject(""Shopping/input_Name""), ""Miyako"")",Chrome 116.0.0.0,,,2023-09-26 23:49:37,2023-09-26 23:49:38,1.169s,PASSED
+"setText(findTestObject(""Shopping/input_Country""), ""Indonesia"")",Chrome 116.0.0.0,,,2023-09-26 23:49:38,2023-09-26 23:49:38,0.824s,PASSED
+"setText(findTestObject(""Shopping/input_City""), ""Jakarta"")",Chrome 116.0.0.0,,,2023-09-26 23:49:38,2023-09-26 23:49:39,0.827s,PASSED
+randomCreditCard = generateRandomString(15),Chrome 116.0.0.0,,,2023-09-26 23:49:39,2023-09-26 23:49:39,0.000s,PASSED
+"chars = ""0123456789"".toCharArray()",Chrome 116.0.0.0,,,2023-09-26 23:49:39,2023-09-26 23:49:39,0.001s,PASSED
+random = new java.util.Random(),Chrome 116.0.0.0,,,2023-09-26 23:49:39,2023-09-26 23:49:39,0.012s,PASSED
+sb = new java.lang.StringBuilder(),Chrome 116.0.0.0,,,2023-09-26 23:49:39,2023-09-26 23:49:39,0.018s,PASSED
+(length - 1)).each({ -> ... }),Chrome 116.0.0.0,,,2023-09-26 23:49:39,2023-09-26 23:49:39,0.016s,PASSED
+return sb.toString(),Chrome 116.0.0.0,,,2023-09-26 23:49:39,2023-09-26 23:49:39,0.001s,PASSED
+"setText(findTestObject(""Shopping/input_Credit Card""), randomCreditCard)",Chrome 116.0.0.0,,,2023-09-26 23:49:39,2023-09-26 23:49:40,0.831s,PASSED
+"setText(findTestObject(""Shopping/input_Month""), ""September"")",Chrome 116.0.0.0,,,2023-09-26 23:49:40,2023-09-26 23:49:41,0.848s,PASSED
+"setText(findTestObject(""Shopping/input_Year""), ""2023"")",Chrome 116.0.0.0,,,2023-09-26 23:49:41,2023-09-26 23:49:42,0.827s,PASSED
+"click(findTestObject(""Shopping/button_Purchase""))",Chrome 116.0.0.0,,,2023-09-26 23:49:42,2023-09-26 23:49:42,0.453s,PASSED
+"verifyElementVisible(findTestObject(""Shopping/h2_Thank you for your purchase""))",Chrome 116.0.0.0,,,2023-09-26 23:49:42,2023-09-26 23:49:44,1.200s,PASSED
+"verifyElementPresent(findTestObject(""Shopping/h2_Thank you for your purchase""), 0)",Chrome 116.0.0.0,,,2023-09-26 23:49:44,2023-09-26 23:49:44,0.381s,PASSED
+"click(findTestObject(""Shopping/button_OK""))",Chrome 116.0.0.0,,,2023-09-26 23:49:44,2023-09-26 23:49:46,1.914s,PASSED
+navigateToUrl(demoBlazeURL),Chrome 116.0.0.0,,,2023-09-26 23:49:46,2023-09-26 23:49:46,0.451s,PASSED
